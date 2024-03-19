@@ -1,0 +1,33 @@
+
+.red,
+.blue,
+.green,
+.yellow {
+  filter: blur(4px);
+}
+
+.red {
+  animation: unrotate 2s infinite;
+}
+
+.blue {
+  animation: unrotate linear 7s infinite;
+  width: 150%;
+  position: absolute;
+  z-index: -1;
+}
+
+.green {
+  animation: rotate linear 3s infinite;
+  position: absolute;
+  z-index: -3;
+  left: 5em;
+  bottom: 3em;
+  width: 300px;
+}
+
+.yellow {
+  animation: rotate 4s infinite;
+  position: absolute;
+  z-index: -2;
+}
